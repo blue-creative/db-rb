@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        purple: {
+          primary: "hsl(var(--purple-primary))",
+          secondary: "hsl(var(--purple-secondary))",
+          muted: "hsl(var(--purple-muted))",
+          dark: "hsl(var(--purple-dark))",
+        },
+        status: {
+          new: "hsl(var(--status-new))",
+          existing: "hsl(var(--status-existing))",
+          duplicate: "hsl(var(--status-duplicate))",
+          missing: "hsl(var(--status-missing))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
